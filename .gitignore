@@ -221,3 +221,10 @@ __marimo__/
 
 # SQLite
 *.db
+
+# Agent private keys (e.g. from examples/demo_agent.py)
+*.pem
+*.pem.new
+
+# Schemathesis fuzzing state (machine-local)
+.schemathesis/
